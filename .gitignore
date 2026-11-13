@@ -1,0 +1,84 @@
+
+# ==============================
+# Dependencies
+# ==============================
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ==============================
+# Python
+# ==============================
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ==============================
+# AI / ML Models & Datasets
+# ==============================
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.pkl
+*.joblib
+
+# Large datasets
+datasets/
+data/raw/
+data/processed/
+models/
+checkpoints/
+
+# ==============================
+# Logs & Temporary Files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# ==============================
+# Build Outputs
+# ==============================
+dist/
+build/
+.next/
+out/
+coverage/
+
+# ==============================
+# IDE & Editor
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Docker
+# ==============================
+*.pid
